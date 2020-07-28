@@ -1,6 +1,5 @@
 const express = require("express");
 const { uuid, isUuid } = require('uuidv4');
-//teste
 const app = express();
 
 app.use(express.json());
